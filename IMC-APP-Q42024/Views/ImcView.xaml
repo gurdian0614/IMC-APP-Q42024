@@ -13,7 +13,7 @@
         <Entry Text="{Binding Estatura}" Keyboard="Numeric" />
 
         <Label Text="IMC:" />
-        <Entry Text="{Binding Imc}" IsReadOnly="True" />
+        <Entry Text="{Binding Resultado}" IsReadOnly="True" />
 
         <Button Text="Calcular" Command="{Binding CalcularCommand}" BackgroundColor="Green" />
         <Button Text="Limpiar" Command="{Binding LimpiarCommand}" BackgroundColor="Red" />
